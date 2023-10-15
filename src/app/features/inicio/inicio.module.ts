@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { InicioRoutingModule } from './inicio-routing.module';
 import { InicioPageComponent } from './pages/inicio-page/InicioPageComponent';
+import { AppRoutingModule } from 'src/app/app-routing.module';
 
 
 @NgModule({
@@ -11,7 +12,9 @@ import { InicioPageComponent } from './pages/inicio-page/InicioPageComponent';
   ],
   imports: [
     CommonModule,
-    InicioRoutingModule
+   
+    AppRoutingModule
+    
   ],
   exports:[
     InicioPageComponent

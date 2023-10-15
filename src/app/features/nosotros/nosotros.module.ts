@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { NosotrosRoutingModule } from './nosotros-routing.module';
 import { NosotrosPageComponent } from './pages/nosotros-page/nosotros-page.component';
+import { AppRoutingModule } from 'src/app/app-routing.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { NosotrosPageComponent } from './pages/nosotros-page/nosotros-page.compo
   ],
   imports: [
     CommonModule,
-    NosotrosRoutingModule
+    NosotrosRoutingModule,
+    AppRoutingModule
   ],
   exports:[NosotrosPageComponent],
 
